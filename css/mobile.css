@@ -1,12 +1,14 @@
 /* Smartphones */
 @media (max-width: 500px) {
-    body {
-        width: 500px;
-        height: 100vh;
-    }
     #showcase {
         margin-top: 0;
         height: 100vh;
+    }
+    #showcase .showcase-content {
+        padding: 100px 20px;
+    }
+    #showcase .l-heading {
+        line-height: 3rem;
     }
     .logo {
         display: flex;
@@ -54,11 +56,10 @@
     #what {
         display: flex;
         flex-direction: row;
-        height: 100vh;
+        height: 80vh;
         width: 500px;
         margin: 0;
         padding: 10px;
-        margin-bottom: 100px;
         overflow: hidden;
     }
 
@@ -77,6 +78,10 @@
     #what .m-heading {
         text-align: center;
         padding-top: 20px;
+    }
+    #who {
+        height: 30vh;
+        padding-bottom: 0;
     }
     #who .list {
         display: flex;
@@ -100,17 +105,14 @@
         height: 100vh;
         padding-top: 20px;
         display: flex;
-        /* flex-direction: column; */
         padding-top: 50px;
-        display: flex;
         padding: 20px 0;
     }
     #who p {
         padding-bottom: 35px;
     }
     #clients {
-        display: flex;
         height: 20vh;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 }
